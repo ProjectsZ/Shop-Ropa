@@ -154,6 +154,104 @@
     }
 }
 
+
+
+
+
+
+
+
+@size-h: 250px;
+
+
+.margin-add{
+    margin-top: 20px;
+    width: 100%;
+    position: relative;
+    
+    .left-top{
+        width: 100%;
+        height: @size-h/2;
+        flex: 1;
+        background-color: @blue-500;
+        margin-bottom: 20px;
+    }
+    .left-bottom{
+        height: @size-h;
+        margin-bottom: 20px;
+        background: @blue-500;
+    }
+    
+    .main {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .center-top {
+        height: @size-h;
+        margin-bottom: 20px;
+        background: @blue-500;
+    }
+    .center-bottom{
+        height: @size-h/2;
+        margin-bottom: 20px;
+        background: @blue-500;
+    }
+
+    .right-top {
+        height: @size-h/2;   
+        width: 100%;
+        background-color: @blue-500;
+        margin-bottom: 20px;
+    }
+    .right-bottom{
+        height: @size-h;
+        margin-bottom: 20px;
+        background: @blue-500;
+    }
+}
+
+    
+
+
+
+
+
+
+
+
+
+
+footer{
+    padding-top: 24px;
+    background: @grey-300;
+    color: @grey-900;
+    
+    ul{
+        font-size: 24px;
+    }
+    
+    ul li{
+        list-style: none;
+        font-size: 14px;
+        
+        a{
+            color: @blue-500;
+        }
+    }
+    
+    .copyright-test{
+        text-align: center;
+        background: @grey-500;
+        color: @grey-100;
+    }
+}
+
+
+
+
+
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-width : 772px) {
     .wish{
