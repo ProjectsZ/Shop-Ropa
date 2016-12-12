@@ -8,10 +8,9 @@
   max-width: 1280px;
   width: 90%;
 }
+
 @media only screen and (min-width: 601px) {
-  .content {
-    width: 85%;
-  }
+  .content { width: 85%; }
 }
 @media only screen and (min-width: 993px) {
   .content {
